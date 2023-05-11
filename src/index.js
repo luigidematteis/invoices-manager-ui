@@ -6,6 +6,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import reportWebVitals from './reportWebVitals';
 import Navbar from "./components/navbar/Navbar";
+import './index.css'
 
 createRoot(document.getElementById('root')).render(
     <React.StrictMode>
