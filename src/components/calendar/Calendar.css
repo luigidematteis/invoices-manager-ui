@@ -1,0 +1,29 @@
+.month-row {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.month {
+    flex: 1;
+    height: 50px;
+    background-color: #ccc;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.month.selected {
+    transform: scale(1.1);
+    height: 70px;
+    background-color: #ff8888;
+    color: #626262;
+}

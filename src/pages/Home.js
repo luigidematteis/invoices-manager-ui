@@ -1,7 +1,8 @@
 import React from 'react';
+import Calendar from '../components/calendar/Calendar.js'
 
 function Home() {
-    return <div className="content"><h2>Home Page</h2></div>;
+    return <div className="content"><Calendar/></div>;
 }
 
 export default Home;

@@ -55,7 +55,6 @@ ul li:first-child button {
 
 .content {
     margin-left: 120px; /* Adjust the initial margin as needed */
-    padding-left: 20px;
     transition: margin-left 0.3s ease; /* Add transition for smoother effect */
 }
 
