@@ -3,13 +3,13 @@ import './Calendar.css';
 
 const Calendar = () => {
     const months = [
-        { name: 'January', color: '#A8E6CF' },
-        { name: 'February', color: '#DCEDC2' },
-        { name: 'March', color: '#FFD3B5' },
-        { name: 'April', color: '#FFAAA6' },
-        { name: 'May', color: '#FF8C94' },
+        { name: 'January', color: '#66c09e' },
+        { name: 'February', color: '#89ab51' },
+        { name: 'March', color: '#e7945c' },
+        { name: 'April', color: '#f37d77' },
+        { name: 'May', color: '#f36872' },
         { name: 'June', color: '#FF616F' },
-        { name: 'July', color: '#BEE9E8' },
+        { name: 'July', color: '#9ec9c8' },
         { name: 'August', color: '#79C7E3' },
         { name: 'September', color: '#4682B4' },
         { name: 'October', color: '#3A6073' },
